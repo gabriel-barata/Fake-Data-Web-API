@@ -7,22 +7,17 @@ class UserRequest(BaseModel):
     name: str | None = None
     username: str
     email: EmailStr
-    password1: str
-    password2: str
+    password: str
 
     @model_validator(mode="after")
-    def check_passwords_match(self):
+    def check_password_match_requirements(self):
 
-        pw1 = self.password1
-        pw2 = self.password2
+        pwd = self.password
 
-        if pw1 != pw2:
-            raise ValueError("passwords does not match")
-
-        is_valid = (len(pw1) > PASSWORD_LENGTH
-                    and any(c.isupper() for c in pw1)
-                    and any(c.islower() for c in pw1)
-                    and any(c in SPECIAL_CHARACTERS for c in pw1))
+        is_valid = (len(pwd) > PASSWORD_LENGTH
+                    and any(c.isupper() for c in pwd)
+                    and any(c.islower() for c in pwd)
+                    and any(c in SPECIAL_CHARACTERS for c in pwd))
 
         if not is_valid:
             raise ValueError('password does not match the requirements')
