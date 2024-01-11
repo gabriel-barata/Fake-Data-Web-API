@@ -1,4 +1,5 @@
 from routes.signup.router import router as sign_up
+from routes.auth.router import router as auth
 from fastapi import FastAPI
 from dotenv import load_dotenv
 from core.variables import ENV_FILE
@@ -8,6 +9,7 @@ load_dotenv(ENV_FILE)
 
 app = FastAPI()
 app.include_router(sign_up)
+app.include_router(auth)
 
 HOST = os.environ.get("APP_HOST")
 PORT = int(os.environ.get("APP_PORT"))

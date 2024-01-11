@@ -1,14 +1,14 @@
-from pydantic import BaseModel, EmailStr, field_validator
+from pydantic import BaseModel, EmailStr, field_validator, Field
 from core.variables import PASSWORD_LENGTH, SPECIAL_CHARACTERS
 import re
 
 
 class UserRequest(BaseModel):
 
-    name: str | None = None
-    username: str
+    name: str | None = Field(examples=["Your Beautiful Name"])
+    username: str = Field(examples=["your_unique_username"])
     email: EmailStr
-    password: str
+    password: str = Field(examples=["your_password"])
 
     @field_validator('password')
     def check_password_match_requirements(cls, value: str):
@@ -22,7 +22,7 @@ class UserRequest(BaseModel):
                     and any(c.isdigit() for c in pwd))
 
         if not is_valid:
-            raise ValueError('password does not match the requirements')
+            raise ValueError("password does not match the requirements.")
 
         return pwd
 
@@ -35,3 +35,9 @@ class UserRequest(BaseModel):
             raise ValueError('username does not match the requirements')
 
         return username
+
+
+class UserLogin(BaseModel):
+
+    email: EmailStr
+    password: str = Field(examples=["your_password"])

@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 from models.user import UserRequest
 from sqlalchemy.orm import Session
 from core.database.models import Users
-from core.database.database import get_db
+from core.dependencies import get_db
 from core.utils import hash_password
 
 router = APIRouter(prefix="/sign_up", tags=["Sign up"])
