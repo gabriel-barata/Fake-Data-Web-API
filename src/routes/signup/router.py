@@ -16,10 +16,15 @@ async def sign_up(data: UserRequest, db: Session = Depends(get_db)):
     This route is used to create an user
     """
 
-    user = db.query(Users).filter(Users.email == data.email).first()
-    if user:
+    email = db.query(Users).filter(Users.email == data.email).first()
+    if email:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT,
                             detail="email already registered")
+
+    username = db.query(Users).filter(Users.username == data.username).first()
+    if username:
+        raise HTTPException(detail="username already in use",
+                            status_code=status.HTTP_409_CONFLICT)
 
     new_user = Users(
         name=data.name,
@@ -39,4 +44,4 @@ async def sign_up(data: UserRequest, db: Session = Depends(get_db)):
             }
         }
 
-    return JSONResponse(content=payload)
+    return JSONResponse(content=payload, status_code=status.HTTP_201_CREATED)

@@ -3,14 +3,8 @@ from fastapi import FastAPI
 from dotenv import load_dotenv
 from core.variables import ENV_FILE
 import os
-# temporario
-from core.database.base import Base
-from core.database.database import engine
 
 load_dotenv(ENV_FILE)
-
-# Base.metadata.drop_all(bind=engine)
-Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 app.include_router(sign_up)
