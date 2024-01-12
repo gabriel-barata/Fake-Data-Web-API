@@ -39,5 +39,5 @@ class UserRequest(BaseModel):
 
 class UserLogin(BaseModel):
 
-    email: EmailStr
+    username: str
     password: str = Field(examples=["your_password"])

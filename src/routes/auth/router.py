@@ -1,17 +1,24 @@
-from datetime import datetime, timedelta
-from core.utils import verify_token_valid
-from fastapi import APIRouter, Depends, HTTPException, status, Header
-from models.token import TokenResponse
-from models.user import UserLogin
-from core.dependencies import get_db
+from fastapi import (
+    APIRouter,
+    Depends,
+    HTTPException,
+    status,
+    )
+from fastapi.security import OAuth2PasswordRequestForm
+
 from sqlalchemy.orm import Session
-from core.database.models import Users
-from core.utils import check_hashed_password
 from dotenv import load_dotenv
-from typing import Annotated
 from jose import jwt
+
+from datetime import datetime, timedelta
+from typing import Annotated
 import os
 
+from core.utils import check_hashed_password
+from core.database.models import Users
+from models.token import TokenResponse
+from core.dependencies import get_db, validate_token
+from models.user import UserLogin
 
 load_dotenv()
 
@@ -24,7 +31,7 @@ router = APIRouter(prefix="/auth", tags=["Auth"])
 
 @router.post("", status_code=status.HTTP_200_OK, response_model=TokenResponse)
 async def authenticate(
-        data: UserLogin,
+        request_form: Annotated[OAuth2PasswordRequestForm, Depends()],
         db: Session = Depends(get_db)):
 
     """
@@ -32,7 +39,12 @@ async def authenticate(
     Returns an access token.
     """
 
-    user = db.query(Users).filter(Users.email == data.email).first()
+    data = UserLogin(
+        username=request_form.username,
+        password=request_form.password
+        )
+
+    user = db.query(Users).filter(Users.username == data.username).first()
     if not user:
         raise HTTPException(
             detail="this user does not exist",
@@ -59,11 +71,6 @@ async def authenticate(
 
 
 @router.get("/test")
-async def teste(
-    access_token: Annotated[
-        str,
-        Header(description="Generate this token on /auth")]):
-
-    verify_token_valid(access_token)
+async def teste(access_token: str = Depends(validate_token)):
 
     return "working"
