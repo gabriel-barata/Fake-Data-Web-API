@@ -1,7 +1,8 @@
+from fastapi import HTTPException, status
 from passlib.context import CryptContext
 from dotenv import load_dotenv
 from jose import jwt, JWTError
-from fastapi import HTTPException, status
+
 import os
 
 load_dotenv()

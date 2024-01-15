@@ -5,7 +5,6 @@ from fastapi import (
     status,
     )
 from fastapi.security import OAuth2PasswordRequestForm
-
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 from jose import jwt
@@ -14,10 +13,10 @@ from datetime import datetime, timedelta
 from typing import Annotated
 import os
 
+from core.dependencies import get_db, validate_token
 from core.utils import check_hashed_password
 from core.database.models import Users
 from models.token import TokenResponse
-from core.dependencies import get_db, validate_token
 from models.user import UserLogin
 
 load_dotenv()
