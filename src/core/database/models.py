@@ -6,7 +6,10 @@ from sqlalchemy import (
     func,
     Boolean,
     )
-from core.database.base import Base
+from sqlalchemy.orm import declarative_base
+
+
+Base = declarative_base()
 
 
 class Users(Base):
@@ -33,19 +36,19 @@ class Customers(Base):
     first_name = Column(String(60), nullable=False)
     last_name = Column(String(60), nullable=False)
     email = Column(String(30), unique=True, nullable=False)
-    username = Column(String(30), nullable=False, unique=True)
+    username = Column(String(30), nullable=True, unique=True)
     phone_number = Column(String(12), nullable=True)
     birth_date = Column(String(10), nullable=True)
 
     postcode = Column(String(9), nullable=False)
     country = Column(String(60), nullable=False)
     city = Column(String(85), nullable=False)
-    address = Column(String(255), nullable=True)
+    address = Column(String(255), nullable=False)
 
     hashed_password = Column(String(255), nullable=False)
     cpf = Column(String(14), unique=True)
 
-    created_at = Column(DateTime)
-    updated_at = Column(DateTime)
+    created_at = Column(DateTime, nullable=False)
+    updated_at = Column(DateTime, nullable=False)
 
-    is_active = Column(Boolean)
+    is_active = Column(Boolean, nullable=False)

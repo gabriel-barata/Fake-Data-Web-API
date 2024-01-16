@@ -18,6 +18,7 @@ bcrypt = "^4.1.2"
 python-multipart = "^0.0.6"
 alembic = "^1.13.1"
 python-jose = "^3.3.0"
+fastapi-pagination = "^0.12.14"
 
 
 [build-system]

@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 from typing import Annotated
 import os
 
-from core.dependencies import get_db, validate_token
+from core.dependencies import get_db
 from core.utils import check_hashed_password
 from core.database.models import Users
 from models.token import TokenResponse
@@ -67,9 +67,3 @@ async def authenticate(
         access_token=access_token,
         expires_at=datetime.strftime(expiration, "%a, %d/%m/%y %H:%M:%S")
         )
-
-
-@router.get("/test")
-async def teste(access_token: str = Depends(validate_token)):
-
-    return "working"

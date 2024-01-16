@@ -19,6 +19,10 @@ class DataGenerator():
     @staticmethod
     def __generate_random_password():
 
+        """
+        This function genrates a random hashed passowrd
+        """
+
         import hashlib
         import secrets
 
@@ -30,6 +34,10 @@ class DataGenerator():
 
     @staticmethod
     def __generate_cpf():
+
+        """
+        This function generates a random fictional CPF
+        """
 
         from random import randrange
 
@@ -50,6 +58,23 @@ class DataGenerator():
 
         return cpf
 
+    @staticmethod
+    def __nullable(func, true_prob: float = 0.7, **kwargs):
+
+        """
+        This function is a way I found to generate null data over the columns
+        """
+
+        import random
+
+        result = random.random() < true_prob
+
+        if result:
+            return func(**kwargs)
+
+        else:
+            return None
+
     def _generate_customers_data(self):
 
         for i in range(0, self.max_rows):
@@ -61,11 +86,13 @@ class DataGenerator():
                 "first_name": self.faker.first_name(),
                 "last_name": self.faker.last_name(),
                 "email": self.faker.unique.free_email(),
-                "username": self.faker.unique.user_name(),
-                "phone_number": self.faker.phone_number(),
-                "birth_date": self.faker.date_of_birth(
-                    minimum_age=18,
-                    maximum_age=60),
+                "username": self.__nullable(
+                    self.faker.unique.user_name),
+                "phone_number": self.__nullable(
+                    self.faker.phone_number),
+                "birth_date": self.__nullable(
+                    self.faker.date_of_birth,
+                    **dict(minimum_age=18, maximum_age=60)),
                 "postcode": self.faker.postcode(),
                 "country": self.faker.current_country(),
                 "city": self.faker.city(),
