@@ -1,0 +1,325 @@
+{
+    "categories": {
+        "eletrônicos": {
+            "description": "Descubra a mais recente tecnologia e inovação em eletrônicos, desde smartphones e laptops até fones de ouvido e gadgets inteligentes.",
+            "items": 
+            [
+                {"name": "Smartphone X1", "description": "Smartphone avançado com câmera de alta resolução", "weight": 150.5, "length": 15.2, "height": 7.0, "width": 0.8, "price": 799.99},
+                {"name": "Notebook UltraSlim", "description": "Notebook ultrafino e leve, ideal para mobilidade", "weight": 1200.0, "length": 13.5, "height": 0.6, "width": 9.0, "price": 1299.99},
+                {"name": "Smart TV 4K Pro", "description": "TV inteligente com resolução 4K e recursos avançados", "weight": 2500.5, "length": 55.0, "height": 30.3, "width": 2.1, "price": 1499.99},
+                {"name": "Fone de Ouvido Wireless", "description": "Fones de ouvido sem fio com cancelamento de ruído", "weight": 150.0, "length": 7.2, "height": 2.0, "width": 6.5, "price": 129.99},
+                {"name": "Câmera DSLR Pro", "description": "Câmera digital profissional com lentes intercambiáveis", "weight": 800.8, "length": 5.5, "height": 4.0, "width": 3.2, "price": 1999.99},
+                {"name": "Tablet UltraFast", "description": "Tablet de alto desempenho com tela HD", "weight": 500.2, "length": 10.1, "height": 8.5, "width": 0.7, "price": 599.99},
+                {"name": "Console de Videogame Elite", "description": "Console de última geração com gráficos de ponta", "weight": 4000.3, "length": 17.8, "height": 5.4, "width": 12.0, "price": 449.99},
+                {"name": "Impressora Multifuncional", "description": "Impressora que imprime, copia e digitaliza documentos", "weight": 1000.4, "length": 15.3, "height": 10.7, "width": 8.6, "price": 199.99},
+                {"name": "Roteador Gigabit", "description": "Roteador de alta velocidade para redes domésticas", "weight": 300.5, "length": 8.4, "height": 2.1, "width": 6.8, "price": 79.99},
+                {"name": "Bateria Externa PowerMax", "description": "Bateria portátil de alta capacidade para recarregar dispositivos", "weight": 200.6, "length": 5.8, "height": 1.5, "width": 3.4, "price": 49.99},
+                {"name": "Monitor Curvo Full HD", "description": "Monitor curvo para uma experiência imersiva", "weight": 700.7, "length": 27.2, "height": 18.9, "width": 2.2, "price": 299.99},
+                {"name": "Teclado Mecânico RGB", "description": "Teclado gamer mecânico com iluminação RGB personalizável", "weight": 1000.8, "length": 18.5, "height": 2.3, "width": 7.5, "price": 129.99},
+                {"name": "Câmera de Segurança SmartCam", "description": "Câmera de vigilância inteligente para monitoramento residencial", "weight": 300.9, "length": 4.4, "height": 4.1, "width": 3.6, "price": 89.99},
+                {"name": "Caixa de Som Bluetooth BoomBox", "description": "Caixa de som potente com conectividade Bluetooth", "weight": 800.0, "length": 12.6, "height": 8.2, "width": 6.9, "price": 79.99},
+                {"name": "Mouse Gamer Precision", "description": "Mouse para jogos com sensor de precisão e design ergonômico", "weight": 150.1, "length": 5.7, "height": 3.5, "width": 2.4, "price": 49.99},
+                {"name": "HD Externo UltraFast 2TB", "description": "Disco rígido externo de alta capacidade com transferência rápida", "weight": 250.2, "length": 12.9, "height": 1.6, "width": 8.7, "price": 129.99},
+                {"name": "Smartwatch HealthTracker", "description": "Smartwatch com monitoramento de saúde e notificações", "weight": 80.3, "length": 2.5, "height": 1.7, "width": 1.8, "price": 149.99},
+                {"name": "Carregador Wireless FastCharge", "description": "Carregador sem fio rápido para smartphones compatíveis", "weight": 100.4, "length": 4.6, "height": 1.8, "width": 4.2, "price": 29.99},
+                {"name": "Drone Explorer 4K", "description": "Drone com câmera 4K para filmagens aéreas de alta qualidade", "weight": 800.5, "length": 12.3, "height": 4.8, "width": 12.1, "price": 299.99},
+                {"name": "Cabo HDMI Premium 4K", "description": "Cabo HDMI de alta qualidade para transmissão de vídeo em 4K", "weight": 150.6, "length": 6.1, "height": 1.9, "width": 1.2, "price": 19.99},
+                {"name": "Lâmpada Inteligente RGB", "description": "Lâmpada LED inteligente com ajuste de cor via smartphone", "weight": 200.7, "length": 4.7, "height": 5.6, "width": 4.3, "price": 39.99},
+                {"name": "Hub USB 3.0 de Alta Velocidade", "description": "Hub para expansão de portas USB com velocidade de transferência rápida", "weight": 100.8, "length": 5.2, "height": 1.7, "width": 2.5, "price": 24.99},
+                {"name": "Câmera 360 Graus VR", "description": "Câmera de ação para capturar vídeos em 360 graus", "weight": 150.9, "length": 2.8, "height": 2.9, "width": 2.6, "price": 179.99}
+              ]
+              
+        },
+
+        "moda e acessorios": {
+            "description": "Mantenha seu estilo atualizado com nossa seleção de moda e acessórios, que inclui roupas da última tendência, calçados elegantes e acessórios para complementar seu visual.",
+            "items": 
+            [
+                {"name": "Jaqueta de Couro Vintage", "description": "Jaqueta clássica de couro com design vintage", "weight": 800.5, "length": 25.0, "height": 3.0, "width": 18.0, "price": 199.99},
+                {"name": "Vestido de Festa Elegante", "description": "Vestido longo para eventos especiais, com detalhes elegantes", "weight": 500.2, "length": 30.0, "height": 1.5, "width": 15.0, "price": 129.99},
+                {"name": "Sapato de Salto Alto Glamour", "description": "Sapato de salto alto para ocasiões glamorosas", "weight": 300.3, "length": 10.0, "height": 8.0, "width": 3.5, "price": 79.99},
+                {"name": "Bolsa Tote Fashion", "description": "Bolsa espaçosa com design moderno e alças resistentes", "weight": 600.4, "length": 12.0, "height": 10.0, "width": 5.0, "price": 49.99},
+                {"name": "Camisa Polo Casual", "description": "Camisa polo confortável e casual para uso diário", "weight": 200.5, "length": 18.0, "height": 2.0, "width": 14.0, "price": 29.99},
+                {"name": "Óculos de Sol Fashionista", "description": "Óculos de sol modernos e estilosos para proteção UV", "weight": 50.6, "length": 6.0, "height": 2.5, "width": 5.5, "price": 39.99},
+                {"name": "Calça Jeans Skinny", "description": "Calça jeans ajustada ao corpo, perfeita para looks modernos", "weight": 700.7, "length": 40.0, "height": 1.0, "width": 16.0, "price": 49.99},
+                {"name": "Relógio de Pulso Elegance", "description": "Relógio de pulso elegante com mostrador analógico", "weight": 100.8, "length": 9.0, "height": 1.2, "width": 4.5, "price": 89.99},
+                {"name": "Lenço de Seda Estampado", "description": "Lenço de seda com estampa floral para um toque de sofisticação", "weight": 80.9, "length": 24.0, "height": 0.5, "width": 24.0, "price": 19.99},
+                {"name": "Blusa de Tricô Aconchegante", "description": "Blusa de tricô confortável para dias mais frios", "weight": 300.0, "length": 28.0, "height": 1.5, "width": 20.0, "price": 34.99},
+                {"name": "Mochila Urbana Resistente", "description": "Mochila urbana com compartimentos práticos e resistente à água", "weight": 800.1, "length": 16.0, "height": 20.0, "width": 8.0, "price": 69.99},
+                {"name": "Pulseira de Prata Fina", "description": "Pulseira delicada de prata para complementar o visual", "weight": 20.2, "length": 7.0, "height": 0.3, "width": 0.5, "price": 29.99},
+                {"name": "Boné Esportivo Ventilado", "description": "Boné esportivo com design moderno e tecido ventilado", "weight": 150.3, "length": 10.0, "height": 5.0, "width": 7.0, "price": 14.99},
+                {"name": "Carteira de Couro Minimalista", "description": "Carteira compacta de couro com espaço para cartões e notas", "weight": 50.4, "length": 4.5, "height": 3.5, "width": 0.5, "price": 24.99},
+                {"name": "Vestido Casual Estampado", "description": "Vestido leve e confortável com estampa floral", "weight": 400.5, "length": 35.0, "height": 1.0, "width": 20.0, "price": 39.99},
+                {"name": "Chapéu Fedora Vintage", "description": "Chapéu clássico estilo fedora para um visual retrô", "weight": 100.6, "length": 12.0, "height": 5.0, "width": 10.0, "price": 19.99},
+                {"name": "Cinto de Couro Elegante", "description": "Cinto de couro com fivela elegante para finalizar o look", "weight": 150.7, "length": 40.0, "height": 1.0, "width": 3.0, "price": 34.99},
+                {"name": "Camiseta Básica Unissex", "description": "Camiseta básica e confortável para uso diário", "weight": 150.8, "length": 28.0, "height": 1.0, "width": 22.0, "price": 14.99},
+                {"name": "Sapato Casual em Lona", "description": "Sapato casual leve em lona para um visual descontraído", "weight": 400.9, "length": 11.0, "height": 4.0, "width": 7.0, "price": 29.99},
+                {"name": "Bijuterias Conjunto Charme", "description": "Conjunto de bijuterias elegantes para diversas ocasiões", "weight": 30.0, "length": 8.0, "height": 1.0, "width": 6.0, "price": 9.99},
+                {"name": "Blazer Clássico Masculino", "description": "Blazer clássico para um visual elegante e formal", "weight": 800.1, "length": 30.0, "height": 2.0, "width": 20.0, "price": 79.99},
+                {"name": "Scarpin Salto Baixo", "description": "Scarpin confortável com salto baixo para o dia a dia", "weight": 200.2, "length": 9.0, "height": 6.0, "width": 3.0, "price": 49.99},
+                {"name": "Pijama de Algodão Confortável", "description": "Conjunto de pijama em algodão para noites aconchegantes", "weight": 300.3, "length": 20.0, "height": 2.0, "width": 16.0, "price": 29.99},
+                {"name": "Brincos de Pérola Elegantes", "description": "Brincos de pérola clássicos para um toque de elegância", "weight": 10.4, "length": 2.0, "height": 0.5, "width": 2.0, "price": 19.99},
+                {"name": "Mala de Viagem Resistente", "description": "Mala de viagem com rodinhas resistentes e alça retrátil", "weight": 2500.5, "length": 24.0, "height": 12.0, "width": 10.0, "price": 99.99},
+                {"name": "Regata Esportiva Masculina", "description": "Regata esportiva para atividades físicas e treinos", "weight": 150.6, "length": 26.0, "height": 1.0, "width": 18.0, "price": 14.99},
+                {"name": "Lenço de Lã Quente", "description": "Lenço de lã para manter-se aquecido nos dias frios", "weight": 100.7, "length": 18.0, "height": 0.5, "width": 18.0, "price": 24.99},
+                {"name": "Tênis Esportivo Leve", "description": "Tênis esportivo leve para corridas e atividades físicas", "weight": 300.8, "length": 12.0, "height": 4.0, "width": 8.0, "price": 59.99}
+              ]
+        },
+
+        "casa e decoração": {
+            "description": "Transforme sua casa em um santuário de estilo com nossa variedade de produtos para casa e decoração, desde móveis modernos até itens de decoração exclusivos.",
+            "items": 
+            [
+                {"name": "Tapete Shaggy Luxo", "description": "Tapete macio e luxuoso para a sala de estar", "weight": 4000.0, "length": 8.0, "height": 1.0, "width": 5.0, "price": 199.99},
+                {"name": "Almofadas Decorativas", "description": "Conjunto de almofadas com estampas modernas", "weight": 500.1, "length": 16.0, "height": 4.0, "width": 16.0, "price": 29.99},
+                {"name": "Cortinas Blackout", "description": "Cortinas que bloqueiam completamente a luz", "weight": 1000.2, "length": 84.0, "height": 1.0, "width": 52.0, "price": 39.99},
+                {"name": "Vaso Decorativo de Cerâmica", "description": "Vaso elegante para realçar a decoração", "weight": 800.3, "length": 10.0, "height": 15.0, "width": 6.0, "price": 49.99},
+                {"name": "Luminária de Mesa Moderna", "description": "Luminária de mesa com design moderno e regulagem de intensidade", "weight": 700.4, "length": 6.0, "height": 18.0, "width": 6.0, "price": 34.99},
+                {"name": "Conjunto de Toalhas de Banho", "description": "Conjunto de toalhas macias e absorventes", "weight": 1200.5, "length": 28.0, "height": 2.0, "width": 16.0, "price": 24.99},
+                {"name": "Cadeira de Escritório Ergonômica", "description": "Cadeira com design ergonômico para conforto no trabalho", "weight": 10000.6, "length": 24.0, "height": 40.0, "width": 24.0, "price": 149.99},
+                {"name": "Mesa de Jantar Retangular", "description": "Mesa de jantar com design elegante e tampo de vidro", "weight": 15000.7, "length": 60.0, "height": 30.0, "width": 36.0, "price": 299.99},
+                {"name": "Espelho Decorativo Oval", "description": "Espelho oval com moldura decorativa", "weight": 800.8, "length": 18.0, "height": 24.0, "width": 1.0, "price": 89.99},
+                {"name": "Jogo de Panelas Antiaderentes", "description": "Jogo de panelas com revestimento antiaderente", "weight": 5000.9, "length": 20.0, "height": 12.0, "width": 10.0, "price": 69.99},
+                {"name": "Cesto Organizador de Tecido", "description": "Cesto de tecido para organização de itens diversos", "weight": 200.0, "length": 14.0, "height": 8.0, "width": 10.0, "price": 19.99},
+                {"name": "Quadro Abstrato em Canvas", "description": "Quadro abstrato em canvas para decoração de parede", "weight": 2000.1, "length": 24.0, "height": 18.0, "width": 1.5, "price": 59.99},
+                {"name": "Cabideiro de Parede Moderno", "description": "Cabideiro de parede com design moderno e funcional", "weight": 100.2, "length": 8.0, "height": 8.0, "width": 2.0, "price": 14.99},
+                {"name": "Tapete Antiderrapante para Banheiro", "description": "Tapete antiderrapante para banheiro com design elegante", "weight": 800.3, "length": 20.0, "height": 1.0, "width": 16.0, "price": 19.99}
+              ]
+              
+        },
+
+        "esportes e fitness": {
+            "description": "Alcance seus objetivos de condicionamento físico com nossa gama de equipamentos esportivos, roupas e acessórios para todas as suas atividades físicas favoritas.",
+            "items": 
+            [
+                {"name": "Esteira Elétrica Profissional", "description": "Esteira robusta e profissional para treinos intensos", "weight": 40000.0, "length": 80.0, "height": 6.0, "width": 32.0, "price": 1299.99},
+                {"name": "Bicicleta Ergométrica Dobrável", "description": "Bicicleta ergométrica compacta e dobrável para treinos em casa", "weight": 15000.1, "length": 30.0, "height": 50.0, "width": 20.0, "price": 499.99},
+                {"name": "Kit de Pesos Livres", "description": "Conjunto de pesos livres para treinos de força", "weight": 30000.2, "length": 24.0, "height": 12.0, "width": 12.0, "price": 199.99},
+                {"name": "Monitor de Atividade Física", "description": "Monitor de atividade física para rastreamento de passos e calorias", "weight": 50.3, "length": 2.0, "height": 0.5, "width": 1.5, "price": 79.99},
+                {"name": "Garrafa de Água Esportiva", "description": "Garrafa de água com design esportivo e bocal anti-vazamento", "weight": 200.4, "length": 3.0, "height": 9.0, "width": 3.0, "price": 9.99},
+                {"name": "Faixa Elástica de Resistência", "description": "Faixa elástica para treinos de resistência e fortalecimento", "weight": 100.5, "length": 6.0, "height": 0.2, "width": 2.0, "price": 14.99},
+                {"name": "Máquina de Exercícios para Abdominais", "description": "Máquina para exercícios específicos de abdominais", "weight": 10000.6, "length": 24.0, "height": 20.0, "width": 18.0, "price": 199.99},
+                {"name": "Fita de Yoga Antiderrapante", "description": "Fita de yoga para praticantes de todos os níveis", "weight": 50.7, "length": 6.0, "height": 0.1, "width": 1.5, "price": 8.99},
+                {"name": "Luvas de Levantamento de Peso", "description": "Luvas acolchoadas para proteção durante o levantamento de peso", "weight": 100.8, "length": 8.0, "height": 0.5, "width": 4.0, "price": 19.99},
+                {"name": "Tapete de Yoga Espesso", "description": "Tapete de yoga com espessura extra para conforto durante as práticas", "weight": 1500.9, "length": 72.0, "height": 0.4, "width": 24.0, "price": 29.99},
+                {"name": "Bola de Pilates Anti-Burst", "description": "Bola de pilates resistente a estouros para exercícios de estabilidade", "weight": 800.0, "length": 8.0, "height": 8.0, "width": 8.0, "price": 16.99},
+                {"name": "Corda de Pular Profissional", "description": "Corda de pular ajustável para treinos cardio intensos", "weight": 100.1, "length": 9.0, "height": 1.0, "width": 1.0, "price": 12.99},
+                {"name": "Pulseira Inteligente de Saúde", "description": "Pulseira inteligente para monitoramento de saúde e atividades", "weight": 20.2, "length": 2.0, "height": 0.5, "width": 2.0, "price": 49.99},
+                {"name": "Máscara de Treino Esportiva", "description": "Máscara para treinos esportivos simulando altitude", "weight": 30.3, "length": 6.0, "height": 2.0, "width": 5.0, "price": 29.99},
+                {"name": "Meias de Compressão Esportivas", "description": "Meias de compressão para melhorar a circulação durante os treinos", "weight": 50.4, "length": 10.0, "height": 0.2, "width": 4.0, "price": 9.99}
+              ]
+              
+        },
+
+        "beleza e cuidados pessoais": {
+            "description": " Mime-se com nossa coleção de produtos de beleza e cuidados pessoais, incluindo cosméticos de alta qualidade, cuidados com a pele e fragrâncias irresistíveis.",
+            "items": 
+            [
+                {"name": "Secador de Cabelo Profissional", "description": "Secador de cabelo potente para secagens rápidas", "weight": 800.0, "length": 10.0, "height": 8.0, "width": 4.0, "price": 59.99},
+                {"name": "Prancha Alisadora de Cabelo", "description": "Prancha alisadora para cabelos lisos e sedosos", "weight": 500.1, "length": 12.0, "height": 3.0, "width": 2.0, "price": 39.99},
+                {"name": "Kit de Maquiagem Profissional", "description": "Kit completo de maquiagem com diversas cores e texturas", "weight": 1000.2, "length": 10.0, "height": 6.0, "width": 2.0, "price": 89.99},
+                {"name": "Escova Elétrica de Limpeza Facial", "description": "Escova elétrica para limpeza facial profunda", "weight": 150.3, "length": 5.0, "height": 2.0, "width": 2.0, "price": 24.99},
+                {"name": "Barbeador Elétrico Masculino", "description": "Barbeador elétrico para um barbear suave e preciso", "weight": 200.4, "length": 6.0, "height": 3.0, "width": 2.0, "price": 49.99},
+                {"name": "Kit de Manicure e Pedicure", "description": "Kit completo para cuidados com as unhas", "weight": 300.5, "length": 8.0, "height": 4.0, "width": 1.0, "price": 19.99},
+                {"name": "Hidratante Corporal de Aloe Vera", "description": "Hidratante corporal enriquecido com aloe vera", "weight": 400.6, "length": 6.0, "height": 18.0, "width": 4.0, "price": 14.99},
+                {"name": "Perfume Floral Feminino", "description": "Perfume feminino com notas florais e delicadas", "weight": 50.7, "length": 2.0, "height": 8.0, "width": 2.0, "price": 34.99},
+                {"name": "Removedor de Maquiagem Micelar", "description": "Removedor de maquiagem micelar para limpeza suave", "weight": 100.8, "length": 4.0, "height": 6.0, "width": 2.0, "price": 9.99},
+                {"name": "Creme Antienvelhecimento", "description": "Creme facial antienvelhecimento para pele jovem e saudável", "weight": 80.9, "length": 3.0, "height": 5.0, "width": 2.0, "price": 69.99},
+                {"name": "Shampoo e Condicionador Natural", "description": "Shampoo e condicionador naturais para cabelos saudáveis", "weight": 600.0, "length": 8.0, "height": 16.0, "width": 4.0, "price": 29.99},
+                {"name": "Esfoliante Corporal de Coco", "description": "Esfoliante corporal de coco para uma pele suave e renovada", "weight": 200.1, "length": 5.0, "height": 7.0, "width": 2.0, "price": 19.99}
+              ]
+              
+        },
+
+        "livros e mídia": {
+            "description": "Explore mundos fascinantes através de nossa vasta seleção de livros, CDs, DVDs e mídia digital, atendendo a todos os gostos e interesses.",
+            "items": 
+            [
+                {"name": "Romance Contemporâneo: Amor nas Estrelas", "description": "Uma envolvente história de amor ambientada no espaço sideral", "weight": 400.0, "length": 15.0, "height": 2.0, "width": 10.0, "price": 19.99},
+                {"name": "Guia de Fotografia Digital", "description": "Um guia completo para iniciantes na fotografia digital", "weight": 600.1, "length": 9.0, "height": 1.5, "width": 7.0, "price": 24.99},
+                {"name": "Coleção de Clássicos da Literatura", "description": "Uma coleção de obras-primas da literatura mundial em formato de luxo", "weight": 2000.2, "length": 20.0, "height": 10.0, "width": 15.0, "price": 79.99},
+                {"name": "Box de DVD: Série de Suspense", "description": "Box com a temporada completa de uma emocionante série de suspense", "weight": 1200.3, "length": 6.0, "height": 8.0, "width": 2.0, "price": 49.99},
+                {"name": "Álbum de Vinil: Melodias Nostálgicas", "description": "Um álbum de vinil com uma seleção de músicas nostálgicas", "weight": 800.4, "length": 12.0, "height": 0.5, "width": 12.0, "price": 29.99},
+                {"name": "E-book: Aventuras do Explorador Perdido", "description": "Um emocionante e-book de aventuras para leitores de todas as idades", "weight": 5.5, "length": 1.0, "height": 7.0, "width": 5.0, "price": 9.99},
+                {"name": "CD: Café Acústico", "description": "Um CD com músicas suaves para relaxar em momentos tranquilos", "weight": 100.6, "length": 5.0, "height": 0.2, "width": 5.0, "price": 14.99},
+                {"name": "Jogo de Tabuleiro Estratégico", "description": "Jogo de tabuleiro que desafia a estratégia e a habilidade dos jogadores", "weight": 1500.7, "length": 12.0, "height": 2.0, "width": 12.0, "price": 34.99}
+              ]
+        },
+
+        "brinquedos e jogos": {
+            "description": "Proporcione diversão sem fim para a família com nossos brinquedos e jogos, desde brinquedos educativos para crianças até jogos emocionantes para todas as idades.",
+            "items": 
+            [
+                {"name": "Lego City - Estação Espacial", "description": "Conjunto de peças para construção de uma estação espacial", "weight": 1000.0, "length": 12.0, "height": 6.0, "width": 10.0, "price": 49.99},
+                {"name": "Bicicleta Infantil com Rodinhas", "description": "Bicicleta colorida para crianças com rodinhas laterais", "weight": 800.1, "length": 36.0, "height": 20.0, "width": 6.0, "price": 89.99},
+                {"name": "Quebra-Cabeça 1000 Peças: Mundo Subaquático", "description": "Quebra-cabeça desafiador com ilustração do mundo subaquático", "weight": 500.2, "length": 20.0, "height": 2.0, "width": 30.0, "price": 19.99},
+                {"name": "Kit de Ciências para Crianças", "description": "Kit educativo com experimentos científicos para crianças", "weight": 600.3, "length": 8.0, "height": 10.0, "width": 4.0, "price": 29.99},
+                {"name": "Boneca Articulada: Super-Herói", "description": "Boneca articulada com traje de super-herói e acessórios", "weight": 200.4, "length": 12.0, "height": 3.0, "width": 2.0, "price": 14.99},
+                {"name": "Jogo de Construção Magnética", "description": "Jogo de construção magnética para criar formas variadas", "weight": 300.5, "length": 6.0, "height": 6.0, "width": 1.0, "price": 24.99},
+                {"name": "Carrinho de Controle Remoto", "description": "Carrinho de controle remoto com design esportivo", "weight": 400.6, "length": 8.0, "height": 4.0, "width": 5.0, "price": 39.99},
+                {"name": "Quebra-Cabeça 500 Peças: Paisagem Montanhosa", "description": "Quebra-cabeça com bela paisagem montanhosa em 500 peças", "weight": 300.7, "length": 18.0, "height": 1.5, "width": 24.0, "price": 16.99},
+                {"name": "Kit de Arte para Crianças", "description": "Kit completo de arte com tintas, pincéis e papel", "weight": 800.8, "length": 10.0, "height": 2.0, "width": 8.0, "price": 19.99},
+                {"name": "Urso de Pelúcia Gigante", "description": "Urso de pelúcia gigante para abraços e companhia", "weight": 1000.9, "length": 24.0, "height": 36.0, "width": 18.0, "price": 49.99},
+                {"name": "Jogo de Cartas Educativo", "description": "Jogo de cartas educativo para aprendizado de números e letras", "weight": 150.0, "length": 4.0, "height": 1.0, "width": 6.0, "price": 9.99},
+                {"name": "Puzzle 3D: Torre Eiffel", "description": "Quebra-cabeça 3D para montar uma réplica da Torre Eiffel", "weight": 400.1, "length": 8.0, "height": 18.0, "width": 8.0, "price": 29.99},
+                {"name": "Bola Sensorial para Bebês", "description": "Bola macia e sensorial para estimular os sentidos dos bebês", "weight": 150.2, "length": 6.0, "height": 6.0, "width": 6.0, "price": 12.99},
+                {"name": "Jogo de Memória Infantil", "description": "Jogo clássico de memória com ilustrações divertidas", "weight": 200.3, "length": 5.0, "height": 1.0, "width": 5.0, "price": 14.99},
+                {"name": "Kit de Fantoches de Animais", "description": "Kit com fantoches de animais para histórias e brincadeiras", "weight": 300.4, "length": 8.0, "height": 12.0, "width": 2.0, "price": 19.99}
+              ]              
+        },
+
+        "alimentos e bebidas": {
+            "description": "Explore uma variedade de sabores e ingredientes com nossa seleção de alimentos e bebidas, desde deliciosos petiscos até vinhos e bebidas exclusivas.",
+            "items": 
+            [
+                {"name": "Café Gourmet: Mistura Especial", "description": "Café gourmet com mistura especial de grãos selecionados", "weight": 250.0, "length": 8.0, "height": 15.0, "width": 5.0, "price": 12.99},
+                {"name": "Chocolate Amargo 70% Cacau", "description": "Tablete de chocolate amargo com 70% de cacau para os amantes do sabor intenso", "weight": 100.1, "length": 4.0, "height": 1.0, "width": 8.0, "price": 5.99},
+                {"name": "Chá Verde: Revigorante", "description": "Chá verde revigorante com notas herbais e antioxidantes", "weight": 50.2, "length": 3.0, "height": 6.0, "width": 3.0, "price": 8.99},
+                {"name": "Pacote de Arroz Integral", "description": "Arroz integral nutritivo e saudável em embalagem prática", "weight": 1000.3, "length": 6.0, "height": 10.0, "width": 2.0, "price": 3.99},
+                {"name": "Mel Puro de Flores Silvestres", "description": "Mel puro de flores silvestres para adoçar suas receitas favoritas", "weight": 500.4, "length": 5.0, "height": 10.0, "width": 5.0, "price": 9.99},
+                {"name": "Azeite de Oliva Extra Virgem", "description": "Azeite de oliva extra virgem de alta qualidade para realçar seus pratos", "weight": 750.5, "length": 3.0, "height": 10.0, "width": 3.0, "price": 14.99},
+                {"name": "Biscoitos Integrais de Aveia", "description": "Biscoitos integrais de aveia, uma opção saudável para lanches", "weight": 200.6, "length": 8.0, "height": 12.0, "width": 2.0, "price": 4.99},
+                {"name": "Água Mineral Natural", "description": "Garrafa de água mineral natural para manter-se hidratado", "weight": 1000.7, "length": 3.0, "height": 10.0, "width": 3.0, "price": 1.99},
+                {"name": "Molho de Tomate Artesanal", "description": "Molho de tomate artesanal feito com tomates frescos e temperos naturais", "weight": 350.8, "length": 6.0, "height": 15.0, "width": 3.0, "price": 7.99},
+                {"name": "Vinho Tinto Reserva: Safra Especial", "description": "Garrafa de vinho tinto reserva de safra especial", "weight": 750.9, "length": 3.0, "height": 12.0, "width": 3.0, "price": 29.99},
+                {"name": "Mix de Frutas Secas", "description": "Mix de frutas secas como nozes, amêndoas e damascos para um lanche saudável", "weight": 300.0, "length": 5.0, "height": 8.0, "width": 2.0, "price": 11.99},
+                {"name": "Sopa Instantânea: Minestrone", "description": "Sopa instantânea de minestrone para uma refeição rápida e reconfortante", "weight": 150.1, "length": 5.0, "height": 8.0, "width": 2.0, "price": 3.49},
+                {"name": "Pacote de Macarrão Integral", "description": "Macarrão integral de trigo para uma opção mais saudável", "weight": 500.2, "length": 4.0, "height": 8.0, "width": 2.0, "price": 2.99},
+                {"name": "Barras de Cereal: Frutas Tropicais", "description": "Barras de cereal com mix de frutas tropicais para um lanche nutritivo", "weight": 120.3, "length": 5.0, "height": 1.0, "width": 2.0, "price": 1.49},
+                {"name": "Queijo Parmesão Gratinado", "description": "Queijo parmesão gratinado para adicionar sabor a suas receitas", "weight": 200.4, "length": 5.0, "height": 8.0, "width": 2.0, "price": 6.99},
+                {"name": "Cerveja Artesanal: IPA", "description": "Garrafa de cerveja artesanal do tipo IPA para apreciadores de lúpulo", "weight": 500.5, "length": 7.0, "height": 20.0, "width": 7.0, "price": 9.99},
+                {"name": "Manteiga Orgânica", "description": "Manteiga orgânica produzida a partir de leite de vacas criadas organicamente", "weight": 250.6, "length": 5.0, "height": 8.0, "width": 2.0, "price": 8.99},
+                {"name": "Cereal Matinal Multigrãos", "description": "Cereal matinal com uma mistura de grãos para um café da manhã saudável", "weight": 400.7, "length": 6.0, "height": 12.0, "width": 2.0, "price": 4.99},
+                {"name": "Pote de Mel e Mostarda", "description": "Combinação deliciosa de mel e mostarda para molhos e acompanhamentos", "weight": 300.8, "length": 4.0, "height": 8.0, "width": 4.0, "price": 5.99},
+                {"name": "Pacote de Chá de Ervas: Camomila", "description": "Pacote de chá de ervas relaxante à base de camomila", "weight": 50.9, "length": 2.0, "height": 5.0, "width": 2.0, "price": 3.99},
+                {"name": "Snack de Batata-Doce Assada", "description": "Snack saudável de batata-doce assada para beliscar entre as refeições", "weight": 100.0, "length": 4.0, "height": 8.0, "width": 2.0, "price": 6.49}
+              ]              
+        },
+
+        "automotivo": {
+            "description": "Mantenha seu veículo em perfeitas condições com nossos acessórios automotivos, peças de reposição e eletrônicos para carros.",
+            "items":
+            [
+                {"name": "Bateria de Carro: Alta Performance", "description": "Bateria automotiva de alta performance para partida confiável", "weight": 15000.0, "length": 10.0, "height": 7.0, "width": 7.0, "price": 119.99},
+                {"name": "Tapetes de Borracha para Carro", "description": "Conjunto de tapetes de borracha duráveis para proteger o interior do carro", "weight": 3000.1, "length": 26.0, "height": 0.5, "width": 17.0, "price": 29.99},
+                {"name": "Kit de Ferramentas para Carro", "description": "Kit completo de ferramentas essenciais para manutenção automotiva", "weight": 5000.2, "length": 12.0, "height": 3.0, "width": 8.0, "price": 69.99},
+                {"name": "Capa Protetora para Banco de Carro", "description": "Capa protetora para banco de carro, resistente à água e fácil de limpar", "weight": 500.3, "length": 22.0, "height": 1.0, "width": 18.0, "price": 24.99},
+                {"name": "Cera de Carnaúba para Carro", "description": "Cera de carnaúba de alta qualidade para proteção e brilho do carro", "weight": 300.4, "length": 3.0, "height": 6.0, "width": 3.0, "price": 14.99},
+                {"name": "Carregador de Bateria Portátil", "description": "Carregador de bateria portátil para emergências e partida rápida", "weight": 1000.5, "length": 8.0, "height": 6.0, "width": 2.0, "price": 39.99},
+                {"name": "Óleo de Motor Sintético", "description": "Óleo de motor sintético de alta performance para proteção do motor", "weight": 1000.6, "length": 4.0, "height": 9.0, "width": 2.0, "price": 19.99},
+                {"name": "Sensor de Estacionamento", "description": "Sensor de estacionamento para auxiliar nas manobras e evitar colisões", "weight": 200.7, "length": 3.0, "height": 1.0, "width": 2.0, "price": 29.99},
+                {"name": "Limpador de Para-Brisa Premium", "description": "Limpador de para-brisa premium para uma visão clara em todas as condições", "weight": 300.8, "length": 24.0, "height": 2.0, "width": 1.0, "price": 9.99}
+              ]              
+        },
+
+        "joias e relógios": {
+            "description": "dorne-se com elegância com nossas joias deslumbrantes e relógios sofisticados, projetados para complementar seu estilo pessoal.",
+            "items":
+            [
+                {"name": "Anel de Diamante Solitário", "description": "Anel elegante com diamante solitário em ouro branco", "weight": 2.0, "length": 1.0, "height": 1.5, "width": 1.0, "price": 1499.99},
+                {"name": "Colar de Pérolas Akoya", "description": "Colar de pérolas Akoya com fecho de ouro amarelo", "weight": 15.0, "length": 18.0, "height": 0.5, "width": 0.5, "price": 899.99},
+                {"name": "Relógio de Pulso Automático", "description": "Relógio de pulso automático com pulseira de couro e mostrador analógico", "weight": 80.0, "length": 8.0, "height": 0.5, "width": 4.0, "price": 599.99},
+                {"name": "Brinco de Safira Azul", "description": "Brinco elegante com safiras azuis em ouro amarelo", "weight": 1.5, "length": 1.0, "height": 2.0, "width": 0.5, "price": 399.99},
+                {"name": "Conjunto de Joias de Prata", "description": "Conjunto de joias de prata com brincos, colar e pulseira", "weight": 30.0, "length": 20.0, "height": 1.0, "width": 15.0, "price": 179.99},
+                {"name": "Relógio de Luxo Swiss Made", "description": "Relógio de luxo suíço com pulseira de aço inoxidável e mostrador digital", "weight": 100.0, "length": 9.0, "height": 0.6, "width": 5.0, "price": 999.99},
+                {"name": "Pingente de Diamante e Esmeralda", "description": "Pingente deslumbrante com diamante central e esmeraldas ao redor", "weight": 2.5, "length": 1.5, "height": 2.0, "width": 0.5, "price": 899.99},
+                {"name": "Relógio de Pulso Esportivo", "description": "Relógio de pulso esportivo com pulseira de borracha e funções de cronômetro", "weight": 70.0, "length": 10.0, "height": 0.8, "width": 4.0, "price": 349.99},
+                {"name": "Bracelete de Ouro Branco", "description": "Bracelete elegante em ouro branco com design exclusivo", "weight": 25.0, "length": 7.0, "height": 1.0, "width": 3.0, "price": 1199.99},
+                {"name": "Relógio de Mergulho Profissional", "description": "Relógio de mergulho profissional resistente à água e com indicadores luminosos", "weight": 120.0, "length": 11.0, "height": 1.0, "width": 5.0, "price": 799.99},
+                {"name": "Anel de Topázio Imperial", "description": "Anel deslumbrante com topázio imperial em ouro amarelo", "weight": 2.0, "length": 1.0, "height": 1.5, "width": 1.0, "price": 449.99},
+                {"name": "Relógio de Bolso Vintage", "description": "Relógio de bolso vintage com corrente e design clássico", "weight": 60.0, "length": 2.0, "height": 2.5, "width": 0.8, "price": 499.99},
+                {"name": "Conjunto de Brincos e Colar de Diamantes", "description": "Conjunto deslumbrante com brincos e colar de diamantes em ouro branco", "weight": 35.0, "length": 22.0, "height": 1.0, "width": 15.0, "price": 1999.99},
+                {"name": "Relógio de Madeira Sustentável", "description": "Relógio de pulso ecológico feito de madeira sustentável com mostrador analógico", "weight": 50.0, "length": 8.0, "height": 0.5, "width": 4.0, "price": 129.99},
+                {"name": "Pulseira de Diamantes e Safiras", "description": "Pulseira luxuosa com diamantes e safiras em ouro rosa", "weight": 15.0, "length": 18.0, "height": 0.8, "width": 1.0, "price": 799.99},
+                {"name": "Relógio de Edição Limitada", "description": "Relógio de edição limitada com detalhes exclusivos e pulseira de couro", "weight": 90.0, "length": 9.0, "height": 0.7, "width": 5.0, "price": 1499.99},
+                {"name": "Brinco de Pérola Negra", "description": "Brinco sofisticado com pérola negra e diamantes em ouro branco", "weight": 2.0, "length": 1.0, "height": 2.0, "width": 0.5, "price": 699.99},
+                {"name": "Relógio de Pulso Elegante", "description": "Relógio de pulso elegante com pulseira de malha de aço e mostrador analógico", "weight": 75.0, "length": 9.0, "height": 0.4, "width": 3.5, "price": 299.99},
+                {"name": "Colar de Ouro Rosa com Diamantes", "description": "Colar deslumbrante em ouro rosa com diamantes lapidados", "weight": 20.0, "length": 16.0, "height": 0.5, "width": 0.5, "price": 1199.99},
+                {"name": "Relógio Inteligente: Smartwatch", "description": "Relógio inteligente com monitor de atividades e conectividade Bluetooth", "weight": 60.0, "length": 10.0, "height": 0.6, "width": 4.0, "price": 199.99},
+                {"name": "Anel de Esmeralda e Diamante", "description": "Anel exuberante com esmeralda central e diamantes ao redor, em platina", "weight": 3.0, "length": 1.0, "height": 1.5, "width": 1.0, "price": 1599.99},
+                {"name": "Relógio de Pulso Vintage", "description": "Relógio de pulso vintage com pulseira de couro e mostrador analógico clássico", "weight": 70.0, "length": 9.0, "height": 0.6, "width": 4.0, "price": 449.99},
+                {"name": "Pingente de Ouro Branco com Diamantes", "description": "Pingente sofisticado em ouro branco com diamantes lapidados", "weight": 4.0, "length": 2.0, "height": 3.0, "width": 0.5, "price": 899.99},
+                {"name": "Relógio de Bolso de Prata", "description": "Relógio de bolso clássico em prata com corrente e mostrador analógico", "weight": 80.0, "length": 2.5, "height": 3.0, "width": 0.8, "price": 399.99},
+                {"name": "Brinco de Diamantes em Ouro Branco", "description": "Brinco luxuoso com diamantes em ouro branco, perfeito para ocasiões especiais", "weight": 3.0, "length": 1.5, "height": 2.0, "width": 0.5, "price": 1099.99},
+                {"name": "Relógio de Mergulho de Titânio", "description": "Relógio de mergulho resistente à água em titânio com pulseira de borracha", "weight": 90.0, "length": 10.0, "height": 0.7, "width": 4.5, "price": 799.99},
+                {"name": "Colar de Diamantes e Safiras", "description": "Colar deslumbrante com diamantes e safiras em ouro branco", "weight": 30.0, "length": 18.0, "height": 0.8, "width": 0.5, "price": 1399.99},
+                {"name": "Relógio de Pulso Minimalista", "description": "Relógio de pulso minimalista com pulseira de couro e mostrador simples", "weight": 50.0, "length": 8.0, "height": 0.4, "width": 3.0, "price": 149.99},
+                {"name": "Anel de Rubi e Diamante", "description": "Anel encantador com rubi central e diamantes ao redor, em ouro amarelo", "weight": 2.5, "length": 1.0, "height": 1.5, "width": 1.0, "price": 799.99},
+                {"name": "Relógio de Bolso Esqueleto", "description": "Relógio de bolso esqueleto com mecanismo à mostra, em ouro rosa", "weight": 70.0, "length": 2.5, "height": 3.0, "width": 0.8, "price": 699.99},
+                {"name": "Pulseira de Ouro Amarelo", "description": "Pulseira elegante em ouro amarelo com elos entrelaçados", "weight": 20.0, "length": 7.5, "height": 0.5, "width": 1.5, "price": 899.99},
+                {"name": "Relógio de Parede Moderno", "description": "Relógio de parede moderno com design minimalista e números estilizados", "weight": 150.0, "length": 12.0, "height": 1.0, "width": 12.0, "price": 99.99}
+            ]
+        },
+
+        "produtos para animais de estimação": {
+            "description": "Mime seus animais de estimação com nossa coleção de produtos dedicados a eles, desde alimentos premium até brinquedos divertidos.",
+            "items":
+            [
+                {"name": "Ração Premium para Cães: Frango e Arroz", "description": "Ração premium para cães com sabor irresistível de frango e arroz", "weight": 3000.0, "length": 12.0, "height": 18.0, "width": 5.0, "price": 29.99},
+                {"name": "Coleira Anti-Pulgas e Carrapatos", "description": "Coleira ajustável com efeito repelente contra pulgas e carrapatos", "weight": 100.1, "length": 0.5, "height": 8.0, "width": 0.1, "price": 14.99},
+                {"name": "Caixa de Areia para Gatos com Pá", "description": "Caixa de areia higiênica para gatos com pá de limpeza incluída", "weight": 1500.2, "length": 18.0, "height": 6.0, "width": 12.0, "price": 19.99},
+                {"name": "Brinquedo Interativo para Cães: Bola Dispensadora de Petiscos", "description": "Bola dispensadora de petiscos para entretenimento e recompensas", "weight": 200.3, "length": 4.0, "height": 4.0, "width": 4.0, "price": 9.99},
+                {"name": "Comedouro Automático para Gatos", "description": "Comedouro automático programável para alimentar seu gato em horários específicos", "weight": 800.4, "length": 8.0, "height": 10.0, "width": 8.0, "price": 34.99},
+                {"name": "Shampoo Hipoalergênico para Cães", "description": "Shampoo suave e hipoalergênico para banhos frequentes em cães", "weight": 300.5, "length": 2.0, "height": 8.0, "width": 2.0, "price": 12.99},
+                {"name": "Arranhador de Gatos em Forma de Poste", "description": "Arranhador vertical para gatos, ideal para afiar as unhas e brincar", "weight": 1000.6, "length": 12.0, "height": 24.0, "width": 12.0, "price": 24.99},
+                {"name": "Comida Úmida para Gatos: Salmão em Pedaços", "description": "Comida úmida premium para gatos, sabor suculento de salmão em pedaços", "weight": 85.7, "length": 2.0, "height": 3.0, "width": 2.0, "price": 1.99},
+                {"name": "Escova de Massagem para Cães e Gatos", "description": "Escova de massagem para remover pelos soltos e estimular a circulação", "weight": 150.8, "length": 4.0, "height": 12.0, "width": 4.0, "price": 8.99},
+                {"name": "Cama Confortável para Cães e Gatos", "description": "Cama acolchoada e confortável para o descanso dos seus animais de estimação", "weight": 1200.9, "length": 20.0, "height": 6.0, "width": 16.0, "price": 19.99},
+                {"name": "Coleira de Identificação Personalizada", "description": "Coleira ajustável com etiqueta de identificação personalizada para pets", "weight": 50.0, "length": 0.5, "height": 8.0, "width": 0.1, "price": 9.99},
+                {"name": "Comedouro Lento para Cães", "description": "Comedouro projetado para desacelerar a alimentação e evitar engasgos", "weight": 400.1, "length": 8.0, "height": 2.0, "width": 8.0, "price": 14.99},
+                {"name": "Bolinhas de Catnip para Gatos", "description": "Bolinhas recheadas com catnip para estimular a brincadeira dos gatos", "weight": 30.2, "length": 2.0, "height": 2.0, "width": 2.0, "price": 3.99},
+                {"name": "Peitoral para Cães com Guia", "description": "Peitoral ajustável para cães com guia para passeios confortáveis", "weight": 200.3, "length": 4.0, "height": 8.0, "width": 1.0, "price": 19.99},
+                {"name": "Tapete Gelado para Cães", "description": "Tapete refrescante para cães, ideal para dias quentes", "weight": 800.4, "length": 16.0, "height": 1.0, "width": 12.0, "price": 29.99},
+                {"name": "Colete Salva-Vidas para Cães", "description": "Colete salva-vidas para cães, proporcionando segurança em atividades aquáticas", "weight": 400.5, "length": 10.0, "height": 2.0, "width": 8.0, "price": 24.99},
+                {"name": "Petisco Dental para Cães: Palitos de Higiene Oral", "description": "Petiscos dentais para cães, auxiliando na higiene oral e prevenção do tártaro", "weight": 150.6, "length": 3.0, "height": 10.0, "width": 3.0, "price": 6.99},
+                {"name": "Transportadora Portátil para Pequenos Animais", "description": "Transportadora confortável e portátil para cães e gatos de pequeno porte", "weight": 1000.7, "length": 14.0, "height": 10.0, "width": 8.0, "price": 39.99}
+              ]              
+        },
+
+        "instrumentos musicais": {
+            "description": " Liberte seu lado musical com nossa variedade de instrumentos musicais, equipamentos de áudio e acessórios para músicos de todos os níveis.",
+            "items":
+            [
+                {"name": "Violão Acústico: Modelo Clássico", "description": "Violão acústico de alta qualidade com timbre clássico e design elegante", "weight": 1500.0, "length": 42.0, "height": 4.0, "width": 15.0, "price": 299.99},
+                {"name": "Teclado Digital: 61 Teclas Sensíveis ao Toque", "description": "Teclado digital com 61 teclas sensíveis ao toque e uma variedade de timbres", "weight": 700.1, "length": 36.0, "height": 6.0, "width": 12.0, "price": 179.99},
+                {"name": "Flauta Transversal: Iniciante", "description": "Flauta transversal indicada para iniciantes, fácil de tocar e com som melodioso", "weight": 300.2, "length": 26.0, "height": 2.0, "width": 2.0, "price": 89.99},
+                {"name": "Bateria Eletrônica: Kit Completo", "description": "Bateria eletrônica completa com pads sensíveis, ideal para prática silenciosa", "weight": 12000.3, "length": 32.0, "height": 8.0, "width": 22.0, "price": 499.99},
+                {"name": "Guitarra Elétrica: Modelo Vintage", "description": "Guitarra elétrica vintage com captadores potentes e visual retro", "weight": 4000.4, "length": 39.0, "height": 2.0, "width": 13.0, "price": 349.99},
+                {"name": "Violino Profissional: Madeira Maciça", "description": "Violino profissional feito de madeira maciça, oferece excelente qualidade sonora", "weight": 600.5, "length": 24.0, "height": 4.0, "width": 8.0, "price": 699.99}
+              ]
+              
+        },
+
+        "equipamentos de escritório": {
+            "description": "Otimize sua eficiência no trabalho com nossos móveis e suprimentos de escritório, desde cadeiras ergonômicas até impressoras de alta qualidade.",
+            "items": 
+            [
+                {"name": "Notebook Profissional: 15 Polegadas", "description": "Notebook profissional de 15 polegadas, potente e leve para produtividade", "weight": 1800.0, "length": 14.0, "height": 1.0, "width": 10.0, "price": 1099.99},
+                {"name": "Cadeira Ergonômica para Escritório", "description": "Cadeira ergonômica com ajustes de altura e apoio lombar para conforto prolongado", "weight": 1500.1, "length": 24.0, "height": 40.0, "width": 24.0, "price": 249.99},
+                {"name": "Impressora Multifuncional a Laser", "description": "Impressora multifuncional a laser para impressão rápida e eficiente", "weight": 25000.2, "length": 18.0, "height": 12.0, "width": 16.0, "price": 349.99},
+                {"name": "Mesa de Escritório: Design Moderno", "description": "Mesa de escritório com design moderno e espaço amplo para trabalho", "weight": 3000.3, "length": 48.0, "height": 30.0, "width": 24.0, "price": 199.99},
+                {"name": "Luminária de Mesa LED: Regulável", "description": "Luminária de mesa LED com ajuste de intensidade para iluminação personalizada", "weight": 500.4, "length": 8.0, "height": 20.0, "width": 8.0, "price": 34.99},
+                {"name": "Calculadora Científica Avançada", "description": "Calculadora científica avançada com funções para cálculos complexos", "weight": 200.5, "length": 3.0, "height": 6.0, "width": 0.5, "price": 19.99},
+                {"name": "Fone de Ouvido com Microfone: Conferências", "description": "Fone de ouvido com microfone para chamadas e videoconferências nítidas", "weight": 150.6, "length": 7.0, "height": 2.0, "width": 6.0, "price": 49.99},
+                {"name": "Organizador de Mesa: Compartimentos", "description": "Organizador de mesa com vários compartimentos para manter tudo em ordem", "weight": 800.7, "length": 12.0, "height": 6.0, "width": 4.0, "price": 14.99},
+                {"name": "Cofre Eletrônico: Segurança para Documentos", "description": "Cofre eletrônico para armazenar documentos e objetos de valor com segurança", "weight": 10000.8, "length": 16.0, "height": 12.0, "width": 10.0, "price": 79.99},
+                {"name": "Pasta Executiva em Couro", "description": "Pasta executiva elegante em couro para documentos e acessórios de escritório", "weight": 700.9, "length": 14.0, "height": 10.0, "width": 2.0, "price": 49.99},
+                {"name": "Quadro Branco Magnético: 60x90 cm", "description": "Quadro branco magnético para apresentações e anotações visíveis a todos", "weight": 400.0, "length": 60.0, "height": 90.0, "width": 1.0, "price": 59.99},
+                {"name": "Cadeira de Visita: Design Moderno", "description": "Cadeira de visita com design moderno para salas de espera e reuniões", "weight": 1200.1, "length": 22.0, "height": 32.0, "width": 22.0, "price": 129.99},
+                {"name": "Fragmentadora de Papel: Alta Capacidade", "description": "Fragmentadora de papel de alta capacidade para destruição segura de documentos", "weight": 8000.2, "length": 14.0, "height": 18.0, "width": 10.0, "price": 129.99},
+                {"name": "Teclado e Mouse Sem Fio: Combo", "description": "Teclado e mouse sem fio com conexão estável para maior conforto", "weight": 1000.3, "length": 18.0, "height": 2.0, "width": 6.0, "price": 39.99},
+                {"name": "Armário para Arquivos: 2 Gavetas", "description": "Armário para arquivos com 2 gavetas para organização eficiente de documentos", "weight": 35000.4, "length": 30.0, "height": 28.0, "width": 18.0, "price": 219.99},
+                {"name": "Fita Adesiva Transparente: Pacote com 6", "description": "Pacote com 6 rolos de fita adesiva transparente para uso geral", "weight": 300.5, "length": 2.0, "height": 4.0, "width": 2.0, "price": 9.99},
+                {"name": "Suporte para Monitor Ergonômico", "description": "Suporte para monitor ergonômico com espaço de armazenamento embaixo", "weight": 1500.6, "length": 20.0, "height": 6.0, "width": 10.0, "price": 29.99},
+                {"name": "Lousa Magnética de Parede", "description": "Lousa magnética de parede para anotações e organização visual", "weight": 600.7, "length": 24.0, "height": 18.0, "width": 1.0, "price": 44.99},
+                {"name": "Mousepad com Apoio Ergonômico", "description": "Mousepad com apoio ergonômico para conforto durante longas horas de uso", "weight": 200.8, "length": 8.0, "height": 1.0, "width": 10.0, "price": 14.99},
+                {"name": "Planner Semanal de Mesa: Bloco Destacável", "description": "Planner semanal de mesa com páginas destacáveis para fácil organização", "weight": 400.9, "length": 10.0, "height": 8.0, "width": 2.0, "price": 12.99},
+                {"name": "Caixa de Arquivo: Portátil e Resistente", "description": "Caixa de arquivo portátil e resistente para transporte seguro de documentos", "weight": 1200.0, "length": 14.0, "height": 12.0, "width": 10.0, "price": 19.99},
+                {"name": "Grampeador de Mesa: Alta Capacidade", "description": "Grampeador de mesa com alta capacidade para uso intensivo", "weight": 600.1, "length": 6.0, "height": 3.0, "width": 2.0, "price": 17.99},
+                {"name": "Etiquetas Adesivas para Impressão: Pacote com 1000", "description": "Pacote com 1000 etiquetas adesivas para impressão de códigos de barras", "weight": 200.2, "length": 4.0, "height": 2.0, "width": 2.0, "price": 14.99},
+                {"name": "Aparador de Livros: Design Minimalista", "description": "Aparador de livros com design minimalista para organizar prateleiras", "weight": 800.3, "length": 6.0, "height": 8.0, "width": 4.0, "price": 9.99},
+                {"name": "Relógio de Mesa: Analógico", "description": "Relógio de mesa analógico para manter o controle do tempo com estilo", "weight": 300.4, "length": 4.0, "height": 6.0, "width": 2.0, "price": 24.99}
+              ]              
+        }
+    }
+}

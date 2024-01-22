@@ -5,6 +5,9 @@ from sqlalchemy import (
     DateTime,
     func,
     Boolean,
+    ForeignKey,
+    BigInteger,
+    Float
     )
 from sqlalchemy.orm import declarative_base
 
@@ -52,3 +55,48 @@ class Customers(Base):
     updated_at = Column(DateTime, nullable=False)
 
     is_active = Column(Boolean, nullable=False)
+
+
+class Categories(Base):
+
+    __tablename__ = 'categories'
+
+    id = Column(Integer, autoincrement=True, primary_key=True)
+    name = Column(String(55), nullable=False)
+    description = Column(String(255), nullable=True)
+
+
+class Sellers(Base):
+
+    __tablename__ = 'sellers'
+
+    id = Column(Integer, autoincrement=True, primary_key=True)
+    name = Column(String(55), nullable=False)
+    postcode = Column(String(9), nullable=False)
+    country = Column(String(60), nullable=False)
+    city = Column(String(85), nullable=False)
+
+    created_at = Column(DateTime, nullable=False)
+    updated_at = Column(DateTime, nullable=False)
+
+    is_active = Column(Boolean, nullable=False)
+
+
+class Products(Base):
+
+    __tablename__ = 'products'
+
+    id = Column(Integer, autoincrement=True, primary_key=True)
+    ean = Column(BigInteger, unique=True)
+    name = Column(String, nullable=False)
+    name_length = Column(String(55), nullable=False)
+    description = Column(String(255), nullable=True)
+    category_id = Column(Integer, ForeignKey('categories.id'), nullable=False)
+
+    weight = Column(Float(2), nullable=True)
+    length = Column(Float(2), nullable=True)
+    height = Column(Float(2), nullable=True)
+    width = Column(Float(2), nullable=True)
+
+    price = Column(Float(2), nullable=False)
+    seller_id = Column(Integer, ForeignKey('sellers.id'))
