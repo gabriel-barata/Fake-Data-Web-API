@@ -69,7 +69,7 @@ async def get_sellers(
 
 
 @router.get("/{identifier}", response_model=SellerResponse)
-async def get_customer(
+async def get_seller(
     identifier: Annotated[str, Path(
         title="id or name",
         description="The id or name of the requested seller"

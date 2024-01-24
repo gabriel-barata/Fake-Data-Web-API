@@ -6,7 +6,6 @@ from sqlalchemy import (
     func,
     Boolean,
     ForeignKey,
-    BigInteger,
     Float
     )
 from sqlalchemy.orm import declarative_base
@@ -87,7 +86,7 @@ class Products(Base):
     __tablename__ = 'products'
 
     id = Column(Integer, autoincrement=True, primary_key=True)
-    ean = Column(BigInteger, unique=True)
+    ean = Column(String(13), unique=True)
     name = Column(String, nullable=False)
     name_length = Column(String(55), nullable=False)
     description = Column(String(255), nullable=True)
@@ -100,3 +99,29 @@ class Products(Base):
 
     price = Column(Float(2), nullable=False)
     seller_id = Column(Integer, ForeignKey('sellers.id'))
+
+
+class Orders(Base):
+
+    __tablename__ = 'orders'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    customer_id = Column(Integer, ForeignKey('customers.id'))
+
+    status = Column(String(50), nullable=False)
+    purchase_date = Column(DateTime, nullable=False)
+    approval_date = Column(DateTime, nullable=False)
+    deliver_date = Column(DateTime, nullable=False)
+    estimated_delivery_date = Column(DateTime, nullable=False)
+
+
+class OrderItems(Base):
+
+    __tablename__ = 'order_items'
+
+    id = Column(Integer, autoincrement=True, primary_key=True)
+    order_id = Column(Integer, ForeignKey('orders.id'))
+    product_id = Column(Integer, ForeignKey('products.id'))
+    seller_id = Column(Integer, ForeignKey('sellers.id'))
+    quantity = Column(Integer, nullable=False)
+    price = Column(Float(2), nullable=False)

@@ -198,3 +198,7 @@ class DataGenerator():
                 product = Products(**prod_dict)
                 self.db.add(product)
                 self.db.commit()
+
+    def _generate_orders_data():
+
+        ...

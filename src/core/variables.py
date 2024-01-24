@@ -7,4 +7,4 @@ PRODUCTS_FILE = ROOT / 'core' / 'fdata' / 'products.json'
 PASSWORD_LENGTH = 8
 SPECIAL_CHARACTERS = '&*%$#@!'
 
-MULTI_FACTOR = 0.08
+MULTI_FACTOR = 0.03

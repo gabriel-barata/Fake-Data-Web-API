@@ -5,6 +5,9 @@ from routes.signup.router import router as sign_up
 from routes.auth.router import router as auth
 from routes.customers.router import router as customers
 from routes.sellers.router import router as sellers
+from routes.products.router import router as products
+from routes.categories.router import router as categories
+
 from core.fdata.generator import DataGenerator
 from core.database.database import session
 from core.config import config
@@ -14,6 +17,8 @@ app.include_router(sign_up)
 app.include_router(auth)
 app.include_router(customers)
 app.include_router(sellers)
+app.include_router(products)
+app.include_router(categories)
 
 
 if __name__ == '__main__':
